@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 960px;
+    width: 100%;
+    margin: auto;
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
+    font-family: 'Barlow', sans-serif;
+    font-family: 'Cabin', sans-serif;
+    font-family: 'Chakra Petch', sans-serif;
+    font-family: 'Cinzel', serif;
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Play', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Reem Kufi Ink', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+body{
+    background-color: rgb(233, 224, 214);
+}
+
+.conteudo{
+    background-color: rgb(231, 230, 229);
+    width: 70%;
+    margin: auto;
+    padding: 20px;
+    border-radius: 3px;
+    border: 1px solid rgb(107, 106, 106);
+    text-align: center;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+header img{
+    height: 70px;
+}
+
+form{
+    display: flex;
+}
+
+form input{
+    margin-right: 20px;
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+table{
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-top: 1px solid black;
+}
+
+table th{
+    font-size: 20px;
+    margin-bottom: 70px;
+}
+
+table td{
+    font-size: 18px;
+    border-bottom: 1px solid rgb(163, 163, 163);
+}
+
+#btn-save{
+    background-color: rgb(1, 177, 1);
+    color: beige;
+    font-size: 16px;
+    border: none;
+    padding: 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+#btn-save:hover{
+    background-color: rgb(1, 59, 1);
+}
+
+#totalContatos{
+    text-align: left;
+}
+
+#btn-excluiContato{
+    background-color: rgb(241, 7, 7);
+    color:beige;
+    padding: 6px;
+    margin: 5px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+#btn-excluiContato:hover{
+    background-color: rgb(112, 7, 7);
+}
